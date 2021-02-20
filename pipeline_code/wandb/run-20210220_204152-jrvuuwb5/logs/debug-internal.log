@@ -1,0 +1,40 @@
+2021-02-20 20:41:53,122 INFO    MainThread:45253 [internal.py:wandb_internal():88] W&B internal server running at pid: 45253, started at: 2021-02-20 20:41:53.122703
+2021-02-20 20:41:53,124 INFO    WriterThread:45253 [datastore.py:open_for_write():77] open: /home/clement/Documents/projects/neuralnetwork/Neural-Networks-with-PyTorch/pipeline/wandb/run-20210220_204152-jrvuuwb5/run-jrvuuwb5.wandb
+2021-02-20 20:41:53,125 DEBUG   HandlerThread:45253 [handler.py:handle_request():94] handle_request: check_version
+2021-02-20 20:41:53,126 DEBUG   SenderThread:45253 [sender.py:send():117] send: header
+2021-02-20 20:41:53,126 DEBUG   SenderThread:45253 [sender.py:send():117] send: request
+2021-02-20 20:41:53,126 DEBUG   SenderThread:45253 [sender.py:send_request():126] send_request: check_version
+2021-02-20 20:41:53,252 DEBUG   SenderThread:45253 [sender.py:send():117] send: run
+2021-02-20 20:41:53,536 INFO    SenderThread:45253 [sender.py:_start_run_threads():593] run started: jrvuuwb5 with start time 1613850112
+2021-02-20 20:41:53,537 DEBUG   SenderThread:45253 [sender.py:send():117] send: summary
+2021-02-20 20:41:53,537 INFO    SenderThread:45253 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-20 20:41:53,539 DEBUG   HandlerThread:45253 [handler.py:handle_request():94] handle_request: run_start
+2021-02-20 20:41:53,744 WARNING MainThread:45253 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2021-02-20 20:42:06,764 DEBUG   HandlerThread:45253 [meta.py:__init__():34] meta init
+2021-02-20 20:42:06,765 DEBUG   HandlerThread:45253 [meta.py:__init__():48] meta init done
+2021-02-20 20:42:06,766 DEBUG   HandlerThread:45253 [meta.py:probe():190] probe
+2021-02-20 20:42:06,767 DEBUG   HandlerThread:45253 [meta.py:_setup_git():180] setup git
+2021-02-20 20:42:06,795 DEBUG   HandlerThread:45253 [meta.py:_setup_git():187] setup git done
+2021-02-20 20:42:06,796 DEBUG   HandlerThread:45253 [meta.py:_save_pip():52] save pip
+2021-02-20 20:42:06,796 DEBUG   HandlerThread:45253 [meta.py:_save_pip():66] save pip done
+2021-02-20 20:42:06,797 DEBUG   HandlerThread:45253 [meta.py:probe():231] probe done
+2021-02-20 20:42:06,880 DEBUG   SenderThread:45253 [sender.py:send():117] send: files
+2021-02-20 20:42:06,882 INFO    SenderThread:45253 [sender.py:_save_file():682] saving file wandb-metadata.json with policy now
+2021-02-20 20:42:10,076 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:14,496 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:18,911 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:23,325 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:27,738 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:32,155 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:36,572 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:40,992 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:45,402 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:49,812 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:54,223 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:58,277 WARNING MainThread:45253 [internal.py:wandb_internal():146] Internal process interrupt: 2
+2021-02-20 20:42:58,277 ERROR   MainThread:45253 [internal.py:wandb_internal():149] Internal process interrupted.
+2021-02-20 20:42:58,636 INFO    HandlerThread:45253 [handler.py:finish():333] shutting down handler
+2021-02-20 20:42:58,637 INFO    WriterThread:45253 [datastore.py:close():258] close: /home/clement/Documents/projects/neuralnetwork/Neural-Networks-with-PyTorch/pipeline/wandb/run-20210220_204152-jrvuuwb5/run-jrvuuwb5.wandb
+2021-02-20 20:42:58,637 DEBUG   SenderThread:45253 [sender.py:send():117] send: stats
+2021-02-20 20:42:58,639 INFO    SenderThread:45253 [sender.py:finish():766] shutting down sender
+2021-02-20 20:43:01,325 INFO    MainThread:45253 [internal.py:handle_exit():78] Internal process exited

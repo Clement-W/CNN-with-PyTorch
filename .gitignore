@@ -1,0 +1,5 @@
+venv/
+pipeline/data/
+pipeline/wandb/
+pipeline/model.onnx
+pipeline/__pycache__/
