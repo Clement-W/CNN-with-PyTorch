@@ -1,35 +1,0 @@
-Network(
-  (net): Sequential(
-    (0): ConvBlock(
-      (block): Sequential(
-        (0): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
-        (1): ReLU()
-        (2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
-      )
-    )
-    (1): ConvBlock(
-      (block): Sequential(
-        (0): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
-        (1): ReLU()
-        (2): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
-      )
-    )
-    (2): ConvBlock(
-      (block): Sequential(
-        (0): Conv2d(32, 64, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
-        (1): ReLU()
-        (2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
-      )
-    )
-    (3): Flatten(start_dim=1, end_dim=-1)
-    (4): FullyConnectedBlock(
-      (block): Sequential(
-        (0): Linear(in_features=576, out_features=10, bias=True)
-      )
-    )
-  )
-)
-  0%|          | 0/469 [00:00<?, ?it/s]loss: 2.59, accuracy: 7.81,epoch: 1/10:   0%|          | 0/469 [00:00<?, ?it/s]loss: 2.59, accuracy: 7.81,epoch: 1/10:   0%|          | 1/469 [00:00<01:57,  3.98it/s]loss: 2.00, accuracy: 16.80,epoch: 1/10:   0%|          | 1/469 [00:00<01:57,  3.98it/s]loss: 2.00, accuracy: 16.80,epoch: 1/10:   0%|          | 2/469 [00:00<01:26,  5.37it/s]loss: 1.49, accuracy: 30.47,epoch: 1/10:   0%|          | 2/469 [00:00<01:26,  5.37it/s]loss: 1.49, accuracy: 30.47,epoch: 1/10:   1%|          | 3/469 [00:00<01:11,  6.54it/s]loss: 1.12, accuracy: 39.84,epoch: 1/10:   1%|          | 3/469 [00:00<01:11,  6.54it/s]loss: 1.12, accuracy: 39.84,epoch: 1/10:   1%|          | 4/469 [00:00<01:08,  6.78it/s]loss: 1.04, accuracy: 44.69,epoch: 1/10:   1%|          | 4/469 [00:00<01:08,  6.78it/s]loss: 1.04, accuracy: 44.69,epoch: 1/10:   1%|          | 5/469 [00:00<01:01,  7.59it/s]loss: 0.80, accuracy: 50.26,epoch: 1/10:   1%|          | 5/469 [00:00<01:01,  7.59it/s]loss: 0.80, accuracy: 50.26,epoch: 1/10:   1%|▏         | 6/469 [00:00<01:03,  7.34it/s]loss: 0.70, accuracy: 54.13,epoch: 1/10:   1%|▏         | 6/469 [00:01<01:03,  7.34it/s]loss: 0.70, accuracy: 54.13,epoch: 1/10:   1%|▏         | 7/469 [00:01<01:02,  7.34it/s]loss: 0.61, accuracy: 57.81,epoch: 1/10:   1%|▏         | 7/469 [00:01<01:02,  7.34it/s]loss: 0.49, accuracy: 60.85,epoch: 1/10:   1%|▏         | 7/469 [00:01<01:02,  7.34it/s]loss: 0.49, accuracy: 60.85,epoch: 1/10:   2%|▏         | 9/469 [00:01<00:57,  7.99it/s]loss: 0.53, accuracy: 63.52,epoch: 1/10:   2%|▏         | 9/469 [00:01<00:57,  7.99it/s]loss: 0.53, accuracy: 63.52,epoch: 1/10:   2%|▏         | 10/469 [00:01<01:01,  7.45it/s]loss: 0.50, accuracy: 65.70,epoch: 1/10:   2%|▏         | 10/469 [00:01<01:01,  7.45it/s]loss: 0.50, accuracy: 65.70,epoch: 1/10:   2%|▏         | 11/469 [00:01<00:57,  7.97it/s]loss: 0.48, accuracy: 67.51,epoch: 1/10:   2%|▏         | 11/469 [00:01<00:57,  7.97it/s]loss: 0.48, accuracy: 67.51,epoch: 1/10:   3%|▎         | 12/469 [00:01<00:55,  8.28it/s]loss: 0.48, accuracy: 67.51,epoch: 1/10:   3%|▎         | 12/469 [00:01<01:09,  6.60it/s]
