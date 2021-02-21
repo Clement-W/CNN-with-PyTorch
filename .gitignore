@@ -1,5 +1,4 @@
 venv/
-pipeline/data/
-pipeline/wandb/
-pipeline/model.onnx
-pipeline/__pycache__/
+pipeline_code/data/
+pipeline_code/wandb/
+pipeline_code/__pycache__/
