@@ -1,6 +1,7 @@
 ### Neural-Networks-with-PyTorch
 
-This repository contains the code i've made by learning PyTorch.
+This repository contains the code i've made by learning PyTorch. 
+Switching 
 
 Very good PyTorch help guides that helped me :
 
@@ -9,4 +10,4 @@ Very good PyTorch help guides that helped me :
 
 ### Contributions
 
-Feel free to use issues or PR to report errors and propose additions or corrections.
+Feel free to use issues or PR to report errors and propose additions or corrections to my code. 
