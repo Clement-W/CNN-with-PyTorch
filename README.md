@@ -1,7 +1,6 @@
 ### Neural-Networks-with-PyTorch
 
 This repository contains the code i've made by learning PyTorch. 
-Switching 
 
 Very good PyTorch help guides that helped me :
 
